@@ -1,0 +1,1 @@
+export const categories=['Portrait','Cinematic','Fashion','Couple','Anime','Fantasy','3D','Product','Travel','Wedding'];export const formatCount=(v=0)=>new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(v);export const safeFilename=f=>`${crypto.randomUUID()}.${f.name.split('.').pop().toLowerCase()}`;

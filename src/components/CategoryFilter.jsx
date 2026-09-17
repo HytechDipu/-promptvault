@@ -1,0 +1,1 @@
+import{categories}from'../utils/helpers';export default function CategoryFilter({value,onChange}){return <div className="chips"><button className={!value?'active':''} onClick={()=>onChange('')}>All</button>{categories.map(c=><button key={c} className={value===c?'active':''} onClick={()=>onChange(c)}>{c}</button>)}</div>}

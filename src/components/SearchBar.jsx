@@ -1,0 +1,1 @@
+import{Search}from'lucide-react';export default function SearchBar({value,onChange,onSubmit}){return <form className="search" onSubmit={e=>{e.preventDefault();onSubmit?.()}}><Search size={20}/><input value={value} onChange={e=>onChange(e.target.value)} placeholder="Search prompts, styles, categories..." aria-label="Search prompts"/></form>}

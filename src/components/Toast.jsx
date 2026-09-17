@@ -1,0 +1,1 @@
+import{createContext,useContext,useState}from'react';const C=createContext(()=>{});export const useToast=()=>useContext(C);export function ToastProvider({children}){const[m,setM]=useState('');const show=x=>{setM(x);setTimeout(()=>setM(''),2600)};return <C.Provider value={show}>{children}{m&&<div className="toast" role="status">{m}</div>}</C.Provider>}
