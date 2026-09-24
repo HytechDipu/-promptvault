@@ -1,1 +1,2 @@
-export default function Footer(){return <footer><strong>✦ PromptVault</strong><span>Discover. Copy. Create.</span><span>© {new Date().getFullYear()} PromptVault</span></footer>}
+import{Link}from'react-router-dom';
+export default function Footer(){return <footer><div><strong>✦ PromptVault</strong><span>Discover. Copy. Create.</span></div><div className="footer-links"><Link to="/about">About</Link><Link to="/contact">Contact</Link><Link to="/privacy-policy">Privacy Policy</Link><Link to="/terms">Terms</Link></div><span>© {new Date().getFullYear()} PromptVault</span></footer>}

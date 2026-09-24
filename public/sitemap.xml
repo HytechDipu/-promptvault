@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/ai-image-prompts</loc></url>
+  <url><loc>/prompt-generator</loc></url>
+  <url><loc>/guides</loc></url>
+  <url><loc>/guides/write-ai-image-prompts</loc></url>
+  <url><loc>/guides/improve-generated-images</loc></url>
+  <url><loc>/guides/prompt-components</loc></url>
+  <url><loc>/about</loc></url>
+  <url><loc>/contact</loc></url>
+  <url><loc>/privacy-policy</loc></url>
+  <url><loc>/terms</loc></url>
+</urlset>
